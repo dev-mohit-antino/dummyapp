@@ -10,6 +10,10 @@ class CategoriesListScreen extends StatefulWidget {
 class _CategoriesListScreenState extends State<CategoriesListScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(children: [
+      Container(),
+      Container(),
+      Container(),
+    ],);
   }
 }
